@@ -28,7 +28,6 @@ function FilmInfoPage() {
     };
   }, [filmId, dispatch]);
 
-  // такая конструкция встречается 2 раза, но нужно ли это как-то объединять
   if (isLoading || error) {
     return (
       <Box

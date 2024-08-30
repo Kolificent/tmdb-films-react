@@ -4,7 +4,6 @@ interface User {
   id: string;
   username: string;
   favorites: Array<FilmDetails['id']>;
-  // не знаю норм ли хранить такие статусы
   isLoading?: boolean;
   error?: string | null;
 }

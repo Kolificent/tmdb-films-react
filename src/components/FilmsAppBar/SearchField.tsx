@@ -31,7 +31,6 @@ function SearchField() {
         disabled={isDisabled}
         value={tempQuery}
         onChange={handleChange}
-        // немного костыльное отбеливание инпута)
         InputLabelProps={{
           style: { color: '#ffffff' },
         }}

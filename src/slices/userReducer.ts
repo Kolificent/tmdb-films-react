@@ -29,7 +29,6 @@ export const changeFavorites = createAsyncThunk(
     { filmId, isFavorite }: { filmId: number; isFavorite: boolean },
     { getState },
   ) => {
-    // насколько это хорошо так писать?
     const state = getState() as RootState;
     const userId = state.userReducer.id;
     const body = JSON.stringify({
